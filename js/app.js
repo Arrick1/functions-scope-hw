@@ -44,3 +44,10 @@ const sumDigits = (num1, num2)=> {
     }
     sumDigits(4, 2);
     
+//4. Pythagoras
+
+const calculateSide = (sideA, sideB) => {
+console.log((sideA **2) + (sideB **2));
+
+}
+calculateSide(2, 5)
