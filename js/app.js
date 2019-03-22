@@ -12,13 +12,15 @@
 // For a function to retun a vale, a specific parameter(s) are called upon 
 // by the statements made within the function. 
 
-//2. 
+//2. Palindrome again.
 
-const checkPalindrom = (str) => {
-    return str == str.split('').reverse().join('');
-  }
+// const checkPalindrom = (str) => {
+//     let str2 = str.split('').reverse().join('');
+    
+//   }
 
-  checkPalindrom("capital letters")
+//   checkPalindrom("capital letters")
+
 // const checkPalindrome = (word) => {
 
 //     if (firstLetter !== lastLetter) {
@@ -32,5 +34,13 @@ const checkPalindrom = (str) => {
 //  checkPalindrome(characters.join(''));
 
 // }
-
 // console.log(checkPalindrome('capital letters'));
+
+
+//3.Digit Sum
+const sumDigits = (num1, num2)=> {
+        console.log(num1 + num2);
+    
+    }
+    sumDigits(4, 2);
+    
