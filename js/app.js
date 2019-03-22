@@ -15,24 +15,16 @@
 //2. Palindrome again.
 
 // const checkPalindrom = (str) => {
-//     let str2 = str.split('').reverse().join('');
-    
-//   }
-
+//     let str2 = str.split('').reverse().join('');   }
 //   checkPalindrom("capital letters")
-
-// const checkPalindrome = (word) => {
-
+//const checkPalindrome = (word) => {
 //     if (firstLetter !== lastLetter) {
 //         return false;
 //     }
-
 //     if (characters.length < 2) {
 //         return true;
 //     }
-
 //  checkPalindrome(characters.join(''));
-
 // }
 // console.log(checkPalindrome('capital letters'));
 
@@ -40,14 +32,18 @@
 //3.Digit Sum
 const sumDigits = (num1, num2)=> {
         console.log(num1 + num2);
-    
     }
     sumDigits(4, 2);
     
 //4. Pythagoras
-
 const calculateSide = (sideA, sideB) => {
-console.log((sideA **2) + (sideB **2));
+console.log("C is equal to " + ((sideA **2) + (sideB **2)));
 
 }
-calculateSide(2, 5)
+calculateSide(2, 5);
+calculateSide(4, 2);
+
+//5. Sum Array
+var sumArray = [1, 2, 3, 1, 4]
+for (var i = 0, sum = 0; i < sumArray.length; sum += sumArray[i++]);
+console.log(sum); 
