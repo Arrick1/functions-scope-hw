@@ -11,3 +11,26 @@
 //What are the implications of the ability of a function to return a value?
 // For a function to retun a vale, a specific parameter(s) are called upon 
 // by the statements made within the function. 
+
+//2. 
+
+const checkPalindrom = (str) => {
+    return str == str.split('').reverse().join('');
+  }
+
+  checkPalindrom("capital letters")
+// const checkPalindrome = (word) => {
+
+//     if (firstLetter !== lastLetter) {
+//         return false;
+//     }
+
+//     if (characters.length < 2) {
+//         return true;
+//     }
+
+//  checkPalindrome(characters.join(''));
+
+// }
+
+// console.log(checkPalindrome('capital letters'));
